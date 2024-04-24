@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Inscreva-se</h1>
+      <input class="inputForm" type="text" placeholder="Nome completo" />
+      <input class="inputForm" type="number" placeholder="CPF" />
+      <input class="inputForm" type="text" placeholder="Data de nascimento" />
+      <input class="inputForm" type="email" placeholder="E-mail" />
+      <input class="inputForm" type="text" placeholder="Telefone" />
+      <input class="inputForm" type="text" placeholder="Endereço" />
+      <input class="inputForm" type="text" placeholder="Cidade" />
+
+      <div class="optionsTrailContainer">
+        <p>Trilha de interesse:</p>
+        <div class="optionsTrailContent">
+          <div class="optionTrail">
+            <input type="radio" name="trail" id="front-end" />
+            <label for="front-end">Front-end</label>
+          </div>
+
+          <div class="optionTrail">
+            <input type="radio" name="trail" id="back-end" />
+            <label for="back-end">Back-end</label>
+          </div>
+
+          <div class="optionTrail">
+            <input type="radio" name="trail" id="games" />
+            <label for="games">Desenvolvimento de Jogos</label>
+          </div>
+
+          <div class="optionTrail">
+            <input type="radio" name="trail" id="design" />
+            <label for="design">Design</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="documentsContainer">
+        <div class="documentContent">
+          <h3>Documento de Identidade</h3>
+          <div class="documentIdentity">
+            <img
+              class="iconUpload"
+              src="./assets/icon-upload.svg"
+              alt="Ícone de upload"
+            />
+            <div class="documentText">
+              <p class="selectFile">
+                Selecione arquivo
+                <br />
+                ou arraste pra cá
+              </p>
+              <p class="formatFile">JPG, PNG ou PDF</p>
+            </div>
+            <button class="buttonFile">Selecionar</button>
+          </div>
+        </div>
+        <div class="documentContent">
+          <h3>Comprovante de Residência</h3>
+          <div class="documentIdentity">
+            <img
+              class="iconUpload"
+              src="./assets/icon-upload.svg"
+              alt="Ícone de upload"
+            />
+            <div class="documentText">
+              <p class="selectFile">
+                Selecione arquivo
+                <br />
+                ou arraste pra cá
+              </p>
+              <p class="formatFile">JPG, PNG ou PDF</p>
+            </div>
+            <button class="buttonFile">Selecionar</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="requiredText">*Atenção: Todos os dados acima são obrigatórios</p>
+
+      <div class="buttonsContainer">
+        <button>Cancelar</button>
+        <button>Enviar</button>
+      </div>
+    </form>
+    <div class="image-container">
+      <img src="./assets/logo-trilhas.png" alt="Logo do Programa Trilhas" />
+    </div>
+  </body>
+</html>
