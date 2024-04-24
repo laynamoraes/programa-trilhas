@@ -29,6 +29,10 @@ form {
   gap: 15px;
 }
 
+form h1 {
+  padding-bottom: 30px;
+}
+
 .inputForm {
   width: 100%;
   padding: 12px 18px;
@@ -49,17 +53,25 @@ form {
   padding-top: 12px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.optionTrail {
+  padding: 5px 0;
 }
 
 .documentsContainer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-bottom: 5px;
 }
 
 .documentContent {
-  width: 48%;
+  width: 100%;
+  max-width: 326px;
+  padding-top: 10px;
 }
 
 .documentContent h3 {
@@ -111,7 +123,33 @@ form {
 
 .buttonsContainer {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.buttonCancel,
+.buttonSend {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.buttonCancel {
+  border: 1px solid #f37820;
+  background-color: transparent;
+  color: #f37820;
+}
+
+.buttonSend {
+  border: none;
+  background-color: #f37820;
+  color: #fff;
 }
 
 .image-container {

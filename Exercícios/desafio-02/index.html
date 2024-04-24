@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Inscrição - Trilhas</title>
   </head>
   <body>
     <form>
       <h1>Inscreva-se</h1>
-      <input class="inputForm" type="text" placeholder="Nome completo" />
-      <input class="inputForm" type="number" placeholder="CPF" />
-      <input class="inputForm" type="text" placeholder="Data de nascimento" />
-      <input class="inputForm" type="email" placeholder="E-mail" />
-      <input class="inputForm" type="text" placeholder="Telefone" />
-      <input class="inputForm" type="text" placeholder="Endereço" />
-      <input class="inputForm" type="text" placeholder="Cidade" />
+      <input
+        class="inputForm"
+        type="text"
+        placeholder="Nome completo"
+        required
+      />
+      <input class="inputForm" type="number" placeholder="CPF" required />
+      <input
+        class="inputForm"
+        type="date"
+        placeholder="Data de nascimento"
+        required
+      />
+      <input class="inputForm" type="email" placeholder="E-mail" required />
+      <input class="inputForm" type="text" placeholder="Telefone" required />
+      <input class="inputForm" type="text" placeholder="Endereço" required />
+      <input class="inputForm" type="text" placeholder="Cidade" required />
 
       <div class="optionsTrailContainer">
         <p>Trilha de interesse:</p>
@@ -84,11 +94,13 @@
         </div>
       </div>
 
-      <p class="requiredText">*Atenção: Todos os dados acima são obrigatórios</p>
+      <p class="requiredText">
+        *Atenção: Todos os dados acima são obrigatórios
+      </p>
 
       <div class="buttonsContainer">
-        <button>Cancelar</button>
-        <button>Enviar</button>
+        <button class="buttonCancel">Cancelar</button>
+        <button class="buttonSend">Enviar</button>
       </div>
     </form>
     <div class="image-container">
