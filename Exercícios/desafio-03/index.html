@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layna Moraes</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="#"></a>Home</li>
-      <li><a href="#"></a>Habilidades</li>
-      <li><a href="#"></a>Projetos</li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Layna Moraes</title>
+  </head>
+  <body>
+    <nav class="navbar__container">
+      <ul class="navbar__list">
+        <li class="navbar__item">
+          <a href="#">
+            <img src="./assets/icon-home.svg" alt="Ícone da página Home" />
+            Home
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#">
+            <img src="./assets/icon-pc.svg" alt="Ícone da página Habilidades" />
+            Habilidades
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#">
+            <img src="./assets/icon-heart.svg" alt="Ícone da página Projetos" />
+            Projetos
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-  <main></main>
+    <main>
+      <div class="presentation__content">
+        <h1>Layna <span>Moraes</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni unde
+          voluptatem distinctio sed eaque nam rem, saepe porro tempore est, in
+          numquam laudantium. Tempore ipsum magni dignissimos aperiam facere
+          repudiandae.
+        </p>
+        <div class="social__media">
+          <h3>Acesse minhas redes:</h3>
+          <button class="social__media__button">
+            <img src="./assets/icon-github.svg" alt="" />
+            GitHub
+          </button>
+          <button class="social__media__button">
+            <img src="./assets/icon-linkedin.svg" alt="" />
+            LinkedIn
+          </button>
+        </div>
+      </div>
+      <div class="profile__image__container">
+        <img src="./assets/image-profile.png" alt="Foto de Layna Moraes" />
+      </div>
+    </main>
 
-  <footer></footer>
-</body>
+    <footer>
+      <div class="footer__content">
+        <img
+          src="./assets/logo-alura-include.png"
+          alt="Logo do Alura Include"
+        />
+        <p>Desenvolvido com 🤍 por Layna Moraes</p>
+      </div>
+    </footer>
+  </body>
 </html>
