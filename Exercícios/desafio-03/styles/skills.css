@@ -22,6 +22,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: left;
+  padding-right: 20px;
 }
 
 .presentation__content h1 {
@@ -37,29 +39,22 @@ main {
 
 .presentation__content p {
   padding-top: 32px;
-  padding-bottom: 50px;
   font-family: var(--secondary-font);
   font-size: 2rem;
   line-height: 3rem;
   color: var(--secondary-text-color);
 }
 
-.social__media {
+.curriculum__container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
 }
 
-.social__media h3 {
-  font-family: var(--main-font);
-  font-size: 1.8rem;
-  letter-spacing: 2px;
-  color: var(--main-text-color);
-  padding-bottom: 25px;
-}
 
-.social__media__button {
+.curriculum__button {
   width: 100%;
   max-width: 375px;
   background-color: transparent;
@@ -77,12 +72,8 @@ main {
   transition: all 0.3s ease-in;
 }
 
-.social__media__button:hover {
+.curriculum__button:hover {
   scale: 1.05;
-}
-
-.social__media :nth-child(2) {
-  margin-bottom: 35px;
 }
 
 .profile__image__container {
@@ -92,6 +83,6 @@ main {
 }
 
 .profile__image__container img {
-  width: 80%;
+  width: 100%;
   object-fit: contain;
 }
