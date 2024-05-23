@@ -59,9 +59,15 @@ main {
   padding-bottom: 25px;
 }
 
-.social__media__button {
+.social__media__link {
   width: 100%;
   max-width: 375px;
+  text-decoration: none;
+}
+
+.social__media__button {
+  width: 100%;
+  /* max-width: 375px; */
   background-color: transparent;
   border: 2px solid var(--accent-color);
   border-radius: 8px;
