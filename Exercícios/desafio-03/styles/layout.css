@@ -13,7 +13,7 @@ body {
 
 .navbar__container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 50px 20px;
   margin: 0 auto;
 }
@@ -52,7 +52,7 @@ footer {
 
 .footer__content {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 25px 0;
   display: flex;

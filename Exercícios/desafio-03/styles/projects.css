@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:wght@400;700&display=swap");
+
+:root {
+  --main-bg-color: #121214;
+  --accent-color: #9956f6;
+  --main-text-color: #f6f6f6;
+  --secondary-text-color: #f6f6f6c9;
+  --main-font: "Do Hyeon", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 20px 150px 20px;
+  display: flex;
+}
+
+.projects__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-right: 20px;
+}
+
+.projects__container h1 {
+  font-family: var(--main-font);
+  font-size: 3.6rem;
+  color: var(--main-text-color);
+  letter-spacing: 5px;
+}
+
+.projects__container h1 span {
+  color: var(--accent-color);
+}
+
+.projects__container p {
+  padding-top: 32px;
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--secondary-text-color);
+}
+
+.projects__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.project {
+  width: 100%;
+  max-width: 370px;
+  height: 235px;
+}
+
+.project__image__container {
+  width: 100%;
+  height: 235px;
+  position: relative;
+  z-index: 2;
+}
+
+.project__image__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.project__border {
+  width: 100%;
+  max-width: 370px;
+  height: 235px;
+  border: 2px solid var(--accent-color);
+  border-radius: 16px;
+  position: relative;
+  top: -223px;
+  left: 12px;
+  z-index: 1;
+}
